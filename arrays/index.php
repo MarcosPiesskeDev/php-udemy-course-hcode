@@ -14,10 +14,12 @@
 
 <?php
 
-print_r(commonArray());
-echo twoDimensional();
-print_r(insertingArray());
-print_r(jsonDemo());
+// Uncomment the lines below one by one to see what it does
+
+//print_r(commonArray());
+//echo twoDimensional();
+//print_r(insertingArray());
+//print_r(jsonDemo());
 
 //Common Array
 function commonArray()

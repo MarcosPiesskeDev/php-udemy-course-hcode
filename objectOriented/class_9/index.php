@@ -4,7 +4,6 @@
     <br>
     <br>
 </html>
-
 <?php
 
 function __autoload($className)
@@ -12,6 +11,8 @@ function __autoload($className)
     require_once $className.'.php';
 }
 
-$civic = new Car();
-
-$civic->gearshift(1);
+$einstein = new Dog();
+echo $einstein->speak()."<br>";
+echo '-------------------------- <br>';
+$croco = new Crocodile();
+echo $croco->move();

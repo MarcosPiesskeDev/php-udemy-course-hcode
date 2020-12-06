@@ -1,6 +1,10 @@
 <?php
 
-class Sql extends PDO {
+namespace utils\ConnectionUtil;
+
+use \PDO;
+
+class ConnectionUtil {
 
     private $conn;
 

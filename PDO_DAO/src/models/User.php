@@ -1,5 +1,7 @@
 <?php
 
+namespace models\User;
+
 class User{
     private $id;
     private $username;
@@ -46,27 +48,7 @@ class User{
     {
         $this->dateRegister = $dateRegister;
     }
-
-    public function loadById($id)
-    {
-        $sql = new Sql();
-
-        $results = $sql->select("SELECT * FROM user WHERE id = :ID", array(
-            ":ID"=>$id
-        ));
-
-        if (!empty($results)){
-
-            $row = $results[0];
-
-            $this->setId($row['id']);
-            $this->setUsername($row['username']);
-            $this->setPassword($row['password']);
-            $this->setDateRegister($row['date_register']);
-            
-        }
-    }
-
+    
     public function __toString()
     {
         return json_encode(array(

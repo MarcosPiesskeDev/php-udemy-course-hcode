@@ -14,7 +14,7 @@ class ConnectionUtil {
         $host = '127.0.0.1';
         $db_name= 'db_php_7';
         $db_user= 'root';
-        $db_password = 'Info@1234';
+        $db_password = 'root';
         
         $this->conn = new PDO($db.':host='.$host.';dbname='.$db_name, $db_user, $db_password);
     }

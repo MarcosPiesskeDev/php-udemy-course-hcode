@@ -1,2 +1,6 @@
 #idea
 .idea/*
+
+#composer
+composerPhp/vendor/*
+composerPhp/composer.lock

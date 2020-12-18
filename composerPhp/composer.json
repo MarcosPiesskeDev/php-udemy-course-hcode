@@ -1,0 +1,9 @@
+{
+    "name": "hcodebr/composer",
+    "description": "It's a example using composer",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.8.*"
+    }
+}
